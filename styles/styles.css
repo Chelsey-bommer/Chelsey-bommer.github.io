@@ -147,7 +147,7 @@ section#home a{
 
 .fixed-bg {
     position: relative;
-    background-image: url("https://github.com/Chelsey-bommer/Chelsey-bommer.github.io/blob/main/images/backgr.png");
+    background-image: url("https://raw.githubusercontent.com/Chelsey-bommer/Chelsey-bommer.github.io/main/images/backgr.png");
     background-size:cover;
     height:400px;
     background-attachment: fixed;
