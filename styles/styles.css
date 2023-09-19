@@ -1,4 +1,3 @@
-
 /* ALGEMENE STYLES */
 /******************/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
@@ -69,7 +68,7 @@ h1 {
 /**************/
 
 nav {
-    width: 20%;
+    /* width: 20%; */
     margin-left:58%;
     z-index: 100;
 }
@@ -86,16 +85,18 @@ nav ul{
 nav a{
     color: var(--soft-text);
     text-decoration: none;
-
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left:1em;
+    margin-right:1em;
 }
+
+
 
 /* states*/
 
 nav a:hover{
-    border-bottom: 3px dashed white;
-    
+    /* border-bottom: 3px dashed white; */
+   font-variation-settings: "wght" 582; 
+   letter-spacing: 1px;
 }
 
 
@@ -143,6 +144,7 @@ section#home section:first-of-type{
 
 section#home a:hover{
     text-decoration: underline white solid;
+   
 }
 
 
@@ -227,8 +229,8 @@ section#portfolio section:first-of-type figure{
     padding:.5em;
     padding-bottom:3em;
 
-    border: solid .2em var(--nav-color);
-    background-color: var(--nav-color);
+    border: solid .2em var(--about-color);
+    background-color: var(--about-color);
 }
 
 section#portfolio section:first-of-type figure img{
@@ -399,5 +401,4 @@ section#matching a{
 section#matching a:hover{
     text-decoration: 2px underline solid white;
 }
-
 
