@@ -14,7 +14,9 @@
 :root {
     --nav-color: black;
     --background-color: white;
+    --about-color: #1e704b;
     --deco-color: #483838;
+    --soft-text: #d0c7c4;
 }
 
 
@@ -82,7 +84,7 @@ nav ul{
 }
 
 nav a{
-    color: white;
+    color: var(--soft-text);
     text-decoration: none;
 
     margin-left: 1em;
@@ -103,51 +105,29 @@ nav a:hover{
 /***************/
 
 section#home{
-    margin-top:12em;
-    margin-bottom:20em;
- 
-    text-align: center;
+    background-color: var(--about-color);
+    padding: 5%;
  
 }
 
-section#home h1{
-    text-shadow: none;
-    margin-top:4em;
+section#home img{
+    width: 40%;
+ 
 }
+
 
 section#home section:first-of-type{
     width:100%;
 }
 
 
-section#home figure{
-    margin-top:1em;
-    
-    padding:.5em;
-    padding-bottom:4%;
-    
-    width:60%;
-
-    border: solid .2em var(--nav-color);
-    background-color: var(--nav-color);
-
-}
-
-section#home img{
-    width: 100%;
-}
 
 
-section#home a{
-    padding:.5em;
-    background-color: var(--nav-color);
-    color: white;
-    text-decoration: none;
-}
+
 
 .fixed-bg {
     position: relative;
-    background-image: url("/images/backgr.png");
+    background-image: url('/images/backgr.png');
     background-size:cover;
     height:400px;
     background-attachment: fixed;
@@ -175,80 +155,39 @@ section#about{
     display:flex;
     flex-direction:row;
    
-    margin-top:3em;
+    padding:10%;
+    background-color: var(--about-color);
+    color: var(--soft-text);
 }
 
 section#about figure{
-    margin-top:4em;
-    margin-left:4em;
-
-    padding:.5em;
-    padding-bottom:4%;
-    
-    width:30%;
-
-    border: solid .2em var(--nav-color);
-    background-color: var(--nav-color);
+    margin: 5%;
+     
+    width:25%;
 }
 
-img{
+section#about img{
     width:100%;
+    border-radius: 50%;
 }
 
 section#about section{
     width: 50%;
-    margin-left: 5%;
-    margin-top: 4em;
+    margin-top: 5%;
+    
 }
 
-section#about h2{
-    margin-bottom: 1em;
+section#about h1{
+    margin-bottom: 3%;
+    
 }
+
+
 
 
 
 section#portfolio{
   margin-top:4em;
-}
-
-
-/* PROGRESS BARS */
-
-section#progress{
-    margin-top:-16em;
-    margin-bottom:20em;
-    margin-left: 39%;
-}
-
-section#progress p{
-    color: white;
-   padding-top:8px;
-   padding-left: 4px;
-   
-}
-
-section#progress div:first-of-type{
-    background-color: var(--nav-color);
-    width: 80%;
-    height:2em;
-}
-
-section#progress div:nth-of-type(2){
-    background-color: var(--nav-color);
-    width: 60%;
-    height:2em;
-}
-
-section#progress div:nth-of-type(3){
-    background-color: var(--nav-color);
-    width: 40%;
-    height:2em;
-}
-
-section#progress div:nth-of-type(4){
-    background-color: var(--nav-color);
-    width: 25%;
-    height:2em;
 }
 
 
