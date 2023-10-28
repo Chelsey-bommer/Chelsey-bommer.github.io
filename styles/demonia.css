@@ -94,3 +94,53 @@ nav a:hover{
    font-variation-settings: "wght" 582; 
    letter-spacing: 1px;
 }
+
+
+/* DEMONIA  STYLES */
+/********************/
+
+section#demonia{
+    margin-top:7em;
+    margin-left:4em;
+
+    display:flex;
+    flex-direction: row;
+}
+
+section#demonia section:first-of-type{
+    width:80%;
+    margin-top:2em;
+}
+
+section#demonia figure{
+   width: 80%;
+   margin-top:2em;
+   margin-left:4em;
+}
+
+section#demonia image{
+    width:100%;
+}
+
+section#demonia2{
+    margin-top:9em;
+    margin-left:4em;
+}
+
+section#demonia2 figure{
+    width: 85%;
+    margin-top:4em;
+    margin-left:18%;
+    
+}
+
+section#demonia2 image{
+    width:100%;
+}
+
+section#demonia2 figure:last-of-type{
+    width: 20%;
+    margin-top:4em;
+    margin-left:35%;
+    
+}

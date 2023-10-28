@@ -94,3 +94,43 @@ nav a:hover{
    font-variation-settings: "wght" 582; 
    letter-spacing: 1px;
 }
+
+/* MATCHING  STYLES */
+/********************/
+
+section#matching{
+    margin-top:7em;
+    margin-left:4em;
+
+    display:flex;
+    flex-direction: row;
+}
+
+section#matching section:first-of-type{
+    width:90%;
+    margin-top:2em;
+}
+
+section#matching figure{
+    width:90%;
+    margin-left:2em;
+}
+
+section#matching img{
+    width:100%;
+}
+
+section#matching a{
+
+    padding:.5em;
+    background-color: var(--nav-color);
+    color: white;
+    text-decoration: none;
+}
+
+
+/* STATES */
+
+section#matching a:hover{
+    text-decoration: 2px underline solid white;
+}

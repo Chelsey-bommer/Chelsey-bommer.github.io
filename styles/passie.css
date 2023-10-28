@@ -94,3 +94,44 @@ nav a:hover{
    font-variation-settings: "wght" 582; 
    letter-spacing: 1px;
 }
+
+
+/* PASSIE    STYLES */
+/********************/
+
+section#passie{
+    margin-top:7em;
+    margin-left:4em;
+
+    display:flex;
+    flex-direction: row;
+}
+
+section#passie section:first-of-type{
+    width:70%;
+    margin-top:2em;
+}
+
+section#passie figure{
+  width: 90%;
+  margin-left:2em;
+  
+}
+
+section#passie img{
+    width:100%;
+}
+
+section#passie a{
+    padding:.5em;
+    background-color: var(--nav-color);
+    color: white;
+    text-decoration: none;
+}
+
+
+/* STATES */
+
+section#passie a:hover{
+    text-decoration: 2px underline solid white;
+}
