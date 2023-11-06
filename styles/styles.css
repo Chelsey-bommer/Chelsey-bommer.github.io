@@ -57,14 +57,13 @@ header{
     position: fixed;
     top:0;
 
-   
-
     z-index: 100;
 }
 
 h1 {
     font-size: 30px;
     text-shadow: 2px 2px #483838;
+    width:80%;
 }
 
 
@@ -72,37 +71,40 @@ h1 {
 /**************/
 
 nav {
-    /* width: 20%; */
-    margin-left:58%;
+    
     z-index: 100;
 }
 
-button {
-    
+button { 
+    width:20%;
+    border: none;
+    background-color: transparent;
+}
+
+button img{
     width:100%;
 }
 
 nav ul{
     display: flex;
     flex-direction:column;
-
     list-style-type: none;
-    /* margin-top:.5em; */ 
-    transform:translateX(-100%);
 
-    
+    transform:translateX(120%);
+
 }
 
+/* Toggle menu */
 nav ul.MenuAdd {
-    transform:translateX(0%);
+    transform:translateX(-40%);
+    transition: .3s;
 }
 
 
 nav a{
     /* color: var(--soft-text); */
     text-decoration: none;
-    margin-left:1em;
-    margin-right:1em;
+    
 }
 
 
