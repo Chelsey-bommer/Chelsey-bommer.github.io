@@ -79,11 +79,13 @@ Show the link that contains should open and close the topnav (.icon) */
     }
 
     nav a.icon {
-      float: right;
+      position: absolute;
+      right: 0;
+      top: 0;
       display: block;
     }
 
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  /* The "responsive" class is added */
 
     nav.responsive {
         display:flex;
