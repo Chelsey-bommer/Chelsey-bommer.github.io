@@ -1,5 +1,5 @@
 /* Variabele aanmaken */
-var Button = document.querySelector("nav button")
+var Button = document.querySelector("button")
 
 Button.addEventListener("click", Menu);
 
