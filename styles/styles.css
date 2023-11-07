@@ -1,6 +1,8 @@
 /* ALGEMENE STYLES */
 /******************/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +18,7 @@
     --about-color: #1e704b;
     --deco-color: #483838;
     --soft-text: #d0c7c4;
+    --nav-text: #ddd;
 }
 
 
@@ -24,6 +27,11 @@ html{
 
     scroll-behavior: smooth;
     position: absolute;
+}
+
+body{
+    font-family: 'Metrophobic', sans-serif;
+    
 }
 
 
@@ -36,12 +44,15 @@ nav{
     overflow: hidden;
     display: flex;
     flex-direction: row;
-
+   
     background-color: var(--deco-color);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
 }
 
 nav a {
-    color: #f2f2f2;
+    color: var(--background-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -49,7 +60,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: var(--nav-text);
     color: black;
 }
 
@@ -66,6 +77,58 @@ img{
     width:10%;
 }
 
+
+
+
+/******* HOME SECTION *********/
+/****************************/
+
+#home{
+    text-align: center;
+    margin-top: 4em;
+}
+
+#home img{
+    border-radius: 15em;
+    width:100%;
+    
+}
+
+#home figure{
+    width:20em;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:4em;
+}
+
+#home a{
+    color: var(--nav-color);
+}
+
+#home h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+}
+
+#home p{
+    margin-top:1em;
+}
+
+
+
+
+ 
+
+/****** COLOR SECTION ******/
+/**************************/
+
+#color{
+    background-color: var(--deco-color);
+    width:80%;
+    height:20em;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 
 /***** MEDIA QUERIES *****/
