@@ -204,6 +204,7 @@ img{
 
 
 
+
 /****** PORTFOLIO SECTION ******/
 /*******************************/
 
@@ -232,12 +233,27 @@ section#portfolio section:first-of-type{
 #portfolio img{
     width:100%;
     border-radius: 15px;
+    box-shadow: 1px 1px 5px black;
 }
 
 #portfolio p{
     margin-bottom:4em;
     margin-top:1em;
 }
+
+#portfolio a{
+    color: black;
+}
+
+
+#portfolio a:visited{
+    color: var(--deco-color);
+}
+
+#portfolio a:hover{
+    color: var(--about-color);
+}
+
 
 
 /***** MEDIA QUERIES *****/
