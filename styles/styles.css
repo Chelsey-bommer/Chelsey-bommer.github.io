@@ -246,6 +246,14 @@ section#portfolio section:first-of-type{
 }
 
 
+/* STATES */
+
+section#portfolio section:first-of-type figure img:hover{   /* don't know if im a fan of this*/
+    opacity: 0.7;
+    transition: ease;
+    transition-duration: .4s;
+}
+
 #portfolio a:visited{
     color: var(--deco-color);
 }
