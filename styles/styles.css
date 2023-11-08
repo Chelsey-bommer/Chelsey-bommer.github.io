@@ -130,7 +130,7 @@ img{
     text-align: center;
 }
 
-#about h2{
+ h2{
     font-size: 2em;
 }
 
@@ -206,6 +206,35 @@ img{
 
 /****** PORTFOLIO SECTION ******/
 /*******************************/
+
+
+#portfolio{
+    text-align: center;
+    margin-top: 10em;
+    
+}
+
+section#portfolio section:first-of-type{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    row-gap:5em;
+
+    margin-left:15em;
+}
+
+#portfolio figure{
+    width:70%;
+
+}
+
+#portfolio img{
+    width:100%;
+}
+
+#portfolio h2{
+    margin-bottom:2em;
+}
 
 
 /***** MEDIA QUERIES *****/
