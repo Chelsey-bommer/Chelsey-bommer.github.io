@@ -79,6 +79,40 @@ img{
 
 
 
+/************* STYLES **********/
+/*******************************/
+
+#demonia{
+    margin-top:5em;
+    text-align: center;
+    
+}
+
+#demonia article{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#demonia p{
+    width:50%;
+}
+
+#demonia img{
+    width: 100%;
+
+}
+
+#demonia figure{
+    width: 40%;
+    
+}
+
+#demonia h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    margin-bottom:1em;
+}
 
 
 

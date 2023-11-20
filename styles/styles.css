@@ -268,7 +268,7 @@ section#portfolio section:first-of-type figure img:hover{   /* don't know if im 
 /*******************************/
 
 footer{
-    margin-top: 10em;
+    margin-top: 12em;
     text-align: center;
 }
 
@@ -276,6 +276,7 @@ footer img{
     width:5%;
 
     margin-top:2em;
+    margin-bottom: 10em;
 }
 
 /***** MEDIA QUERIES *****/
