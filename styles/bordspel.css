@@ -80,6 +80,40 @@ img{
 
 
 
+/************* STYLES **********/
+/*******************************/
+
+#bordspel{
+    margin-top:5em;
+    text-align: center;
+    
+}
+
+#bordspel article{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#bordspel p{
+    width:40%;
+}
+
+#bordspel figure{
+    width: 35%;
+
+}
+
+#bordspel img{
+    width: 100%;
+}
+
+
+#bordspel h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    margin-bottom:1em;
+}
 
 
 
