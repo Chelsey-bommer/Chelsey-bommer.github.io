@@ -80,6 +80,43 @@ img{
 
 
 
+/************* STYLES **********/
+/*******************************/
+
+#stage{
+    margin-top:5em;
+    text-align: center;
+    
+}
+
+#stage article{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#stage p{
+    width:40%;
+}
+
+#stage img{
+    width: 100%;
+
+}
+
+#stage figure{
+    width: 35%;
+    
+}
+
+
+#stage h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    margin-bottom:1em;
+}
+
+
 
 
 
