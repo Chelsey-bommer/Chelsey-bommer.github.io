@@ -80,6 +80,42 @@ img{
 
 
 
+/************* STYLES **********/
+/*******************************/
+
+#passie{
+    margin-top:5em;
+    text-align: center;
+    
+}
+
+#passie article{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#passie p{
+    width:40%;
+}
+
+#passie img{
+    width: 100%;
+
+}
+
+#passie figure{
+    width: 45%;
+    
+}
+
+
+#passie h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    margin-bottom:1em;
+}
+
 
 
 
