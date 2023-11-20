@@ -80,6 +80,42 @@ img{
 
 
 
+/************* STYLES **********/
+/*******************************/
+
+#platformer{
+    margin-top:5em;
+    text-align: center;
+    
+}
+
+#platformer article{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#platformer p{
+    width:40%;
+}
+
+#platformer img{
+    width: 100%;
+
+}
+
+#platformer figure{
+    width: 35%;
+    
+}
+
+
+#platformer h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    margin-bottom:1em;
+}
+
 
 
 
