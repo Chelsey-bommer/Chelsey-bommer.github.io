@@ -264,6 +264,20 @@ section#portfolio section:first-of-type figure img:hover{   /* don't know if im 
 
 
 
+/******** FOOTER SECTION ********/
+/*******************************/
+
+footer{
+    margin-top: 10em;
+    text-align: center;
+}
+
+footer img{
+    width:5%;
+
+    margin-top:2em;
+}
+
 /***** MEDIA QUERIES *****/
 /************************/
 
