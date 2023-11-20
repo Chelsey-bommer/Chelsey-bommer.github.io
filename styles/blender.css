@@ -82,12 +82,33 @@ img{
 /************* STYLES **********/
 /*******************************/
 
+#blender{
+    margin-top:5em;
+    text-align: center;
+    
+}
+
+#blender article{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#blender p{
+    width:40%;
+}
+
+#blender video{
+    width: 35%;
+
+}
 
 
-
-
-
-
+#blender h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    margin-bottom:1em;
+}
 
 
 
