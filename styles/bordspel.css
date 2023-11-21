@@ -80,7 +80,7 @@ img{
 
 
 
-/************* STYLES **********/
+/****** STYLES SAMENVATTING******/
 /*******************************/
 
 #bordspel{
@@ -115,6 +115,39 @@ img{
     margin-bottom:1em;
 }
 
+
+
+
+/******** STYLES REGELS ********/
+/*******************************/
+
+#regels{
+    margin-top:5em;
+    text-align: center;
+}
+
+#regels article{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#regels p{
+    width:40%;
+}
+
+#regels h2{
+    margin-bottom: 1em;
+}
+
+#regels figure{
+    width: 35%;
+
+}
+
+#regels img{
+    width: 100%;
+}
 
 
 
