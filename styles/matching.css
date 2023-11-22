@@ -101,6 +101,7 @@ img{
 
 #matching figure{
     width: 35%;
+    box-shadow: 1px 1px 5px black;
 }
 
 #matching img{
@@ -131,7 +132,7 @@ img{
 
 
 #uitleg{
-    margin-top:5em;
+    margin-top:11em;
     text-align: center;
     
 }
@@ -140,6 +141,8 @@ img{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
+
+    margin-bottom: 5em;
 }
 
 #uitleg p{
@@ -147,18 +150,22 @@ img{
 }
 
 #uitleg figure{
-    width: 35%;
+    width: 45%;
+    box-shadow: 1px 1px 5px black;
 }
 
 #uitleg img{
     width:100%;
 }
 
+#uitleg h2{
+    margin-bottom:2em;
+}
 
 
 
-
-
+/********** IMAGE GALLERY **********/
+/************************************/
 
 
 /***** MEDIA QUERIES *****/
