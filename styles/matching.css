@@ -80,7 +80,7 @@ img{
 
 
 
-/************* STYLES **********/
+/************* STYLES matching**********/
 /*******************************/
 
 #matching{
@@ -122,6 +122,42 @@ img{
 #matching a:hover{
     color: var(--about-color);
 }
+
+
+
+
+/************* STYLES uitleg**********/
+/**************************************/
+
+
+#uitleg{
+    margin-top:5em;
+    text-align: center;
+    
+}
+
+#uitleg article{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#uitleg p{
+    width:40%;
+}
+
+#uitleg figure{
+    width: 35%;
+}
+
+#uitleg img{
+    width:100%;
+}
+
+
+
+
+
 
 
 
