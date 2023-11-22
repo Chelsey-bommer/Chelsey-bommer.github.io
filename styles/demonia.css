@@ -116,7 +116,34 @@ img{
 
 
 
+/************* STYLES **********/
+/*******************************/
 
+#demoniagallery{
+    margin-top:7em;
+    text-align: center;
+}
+
+#demoniagallery img{
+    width: 100%;
+
+}
+
+#demoniagallery figure:first-of-type{
+    width: 80%;
+    margin-left:20%;
+    margin-bottom:10em;
+}
+
+#demoniagallery figure:nth-of-type(2){
+    width: 20%;
+    margin-left:40%;
+    margin-bottom:10em;
+}
+
+#demoniagallery h2{
+    margin-bottom:2em;
+}
 
 /***** MEDIA QUERIES *****/
 /************************/
