@@ -105,7 +105,7 @@ img{
 }
 
 #platformer figure{
-    width: 35%;
+    width: 40%;
     
 }
 
@@ -117,6 +117,13 @@ img{
 }
 
 
+#platformer a:visited{
+    color: var(--deco-color);
+}
+
+#platformer a:hover{
+    color: var(--about-color);
+}
 
 
 

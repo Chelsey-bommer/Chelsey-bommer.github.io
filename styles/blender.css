@@ -103,7 +103,6 @@ img{
 
 }
 
-
 #blender h1{
     font-family: 'Permanent Marker', cursive;
     font-size: 2em;
@@ -111,6 +110,14 @@ img{
 }
 
 
+
+#blender a:visited{
+    color: var(--deco-color);
+}
+
+#blender a:hover{
+    color: var(--about-color);
+}
 
 /***** MEDIA QUERIES *****/
 /************************/

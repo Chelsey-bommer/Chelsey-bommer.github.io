@@ -115,6 +115,13 @@ img{
 
 
 
+#matching a:visited{
+    color: var(--deco-color);
+}
+
+#matching a:hover{
+    color: var(--about-color);
+}
 
 
 

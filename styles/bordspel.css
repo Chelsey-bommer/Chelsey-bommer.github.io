@@ -133,7 +133,7 @@ img{
 }
 
 #regels p{
-    width:40%;
+    width:25%;
 }
 
 #regels h2{
@@ -141,7 +141,7 @@ img{
 }
 
 #regels figure{
-    width: 35%;
+    width: 30%;
 
 }
 
@@ -150,15 +150,6 @@ img{
 }
 
 
-
-
-a:visited{
-    color: var(--deco-color);
-}
-
-a:hover{
-    color: var(--about-color);
-}
 
 /***** MEDIA QUERIES *****/
 /************************/

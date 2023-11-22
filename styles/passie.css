@@ -117,7 +117,13 @@ img{
 }
 
 
+#passie a:visited{
+    color: var(--deco-color);
+}
 
+#passie a:hover{
+    color: var(--about-color);
+}
 
 
 /***** MEDIA QUERIES *****/
