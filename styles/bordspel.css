@@ -151,6 +151,15 @@ img{
 
 
 
+
+a:visited{
+    color: var(--deco-color);
+}
+
+a:hover{
+    color: var(--about-color);
+}
+
 /***** MEDIA QUERIES *****/
 /************************/
 
