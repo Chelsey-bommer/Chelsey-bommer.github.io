@@ -51,12 +51,12 @@
 
             <article>
                 <figure><img src="images/rooms-start.png" alt=""></figure>
-                <p>Hoe werkt het? Je begint bij een welkom pagina, waar je de keuze hebt tussen inloggen of
+                <p> <b>1.</b> Je begint bij een welkom pagina, waar je de keuze hebt tussen inloggen of
                     een account registreren, als je nog niet eerder op de applicatie bent geweest.</p>
             </article>
 
             <article>
-                <p>Als je een account registreert, wordt deze opgeslagen in de database die gekoppeld zit. 
+                <p> <b>2.</b> Als je een account registreert, wordt deze opgeslagen in de database die gekoppeld zit. 
                     Dit is een mongoDB database die zowel de accounts als huizenopties opgeslagen heeft staan.
                 </p>
                 <figure><img src="images/rooms-register.png" alt=""></figure>
@@ -64,28 +64,40 @@
 
             <article>
                 <figure><img src="images/rooms-welkom.png" alt=""></figure>
-                <p>Wanneer je vervolgens inlogt, wordt je gebruikersnaam teruggekoppelt vanuit de database,
+                <p> <b>3.</b> Wanneer je vervolgens inlogt, wordt je gebruikersnaam teruggekoppelt vanuit de database,
                     om zo een warm welkom te krijgen.
                 </p>
             </article>
 
             <article>
-                <p>Om uit steden bij jou in de buurt te kiezen, gebruikt Rooms een steden API. Deze toont
-                    steden met bepaalde gegeven parameters. In dit geval zijn dat 
+                <p> <b>4.</b> Om uit steden bij jou in de buurt te kiezen, gebruikt Rooms een steden API. Deze toont
+                    steden met bepaalde gegeven parameters. In dit geval zijn dat steden met meer dan 30.000 inwoners, die
+                    binnen 100km van jouw locatie liggen. Jouw locatie wordt opgehaald met een andere API die deze omzet
+                    in coördinaten, die de steden API gebruikt. 
                 </p>
                 <figure><img src="images/rooms-api.png" alt=""></figure>
             </article>
 
             <article>
                 <figure><img src="images/rooms-voorkeur.png" alt=""></figure>
+                <p> <b>5.</b> Wanneer je beide voorkeuren hebt ingevuld, worden deze vergeleken met alle huizen die in de database
+                    staan. Als er meerdere opties zijn voor het budget, zal de app degene kiezen die het dichtst bij
+                    het budget ligt.
+                </p>
             </article>
 
             <article>
+                <p> <b>6.</b> Vervolgens krijg je het resultaat te zien. Ben je niet tevreden? Dan kan je het nog een keer proberen.
+                    Als je wel heel tevreden bent, kun je het huis toevoegen aan je favorieten lijst. 
+                </p>
                 <figure><img src="images/rooms-resultaat.png" alt=""></figure>
             </article>
 
             <article>
                 <figure><img src="images/rooms-update.png" alt=""></figure>
+                <p> <b>7.</b> Als je opnieuw gaat proberen, zie je wat je de vorige keer hebt ingevuld. Zo vul je niet
+                    2x hetzelfde in.
+                </p>
             </article>
 
         </section>

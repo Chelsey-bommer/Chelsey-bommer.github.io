@@ -142,7 +142,7 @@ img{
     flex-direction: row;
     justify-content:space-around;
 
-    margin-bottom: 5em;
+    margin-bottom: 8em;
 }
 
 #uitleg p{
@@ -150,7 +150,7 @@ img{
 }
 
 #uitleg figure{
-    width: 45%;
+    width: 50%;
     box-shadow: 1px 1px 5px black;
 }
 
@@ -158,7 +158,7 @@ img{
     width:100%;
 }
 
-#uitleg h2{
+#uitleg h2:first-of-type{
     margin-bottom:2em;
 }
 
