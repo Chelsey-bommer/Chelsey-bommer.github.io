@@ -14,7 +14,7 @@
 
 :root {
     --nav-color: black;
-    --background-color: #302B51;
+    --background-color: white;
     --about-color: #1e704b;
     --deco-color: #483838;
     --soft-text: #d0c7c4;
@@ -31,7 +31,7 @@ html{
 body{
 
     font-family: 'Metrophobic', sans-serif;
-    
+    background-color: #302B51;
 }
 
 
