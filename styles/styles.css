@@ -285,14 +285,21 @@ section#portfolio section:first-of-type figure img:hover{   /* don't know if im 
 
 footer{
     margin-top: 12em;
+    margin-bottom: 10em;
     text-align: center;
 }
 
-footer img{
-    width:5%;
+footer a{
+    font-size: 2em;
+    text-decoration: none;
+    color: var(--nav-text);
 
-    margin-top:2em;
-    margin-bottom: 10em;
+    margin: 10px;
+}
+
+footer i{
+    font-family: 'FontAwesome';
+    font-style: normal;
 }
 
 
