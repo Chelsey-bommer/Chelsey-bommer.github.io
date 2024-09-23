@@ -369,6 +369,21 @@ Show the link that contains should open and close the topnav (.icon) */
         margin-left: 0;
     }
 
+    #home{
+        margin-top: 6em;
+        
+    }
+
+    #about{
+        margin-top: 4em;
+        
+    }
+
+    #portfolio{
+        margin-top: 4em;
+        
+    }
+
     section#portfolio section:first-of-type{
         display:grid;
         grid-template-columns: 1fr;

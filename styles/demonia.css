@@ -118,7 +118,8 @@ nav .icon{
 #demonia{
     margin-top:5em;
     text-align: center;
-    
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #demonia article{
@@ -129,6 +130,7 @@ nav .icon{
 
 #demonia p{
     width:40%;
+    text-align: left;
 }
 
 #demonia img{

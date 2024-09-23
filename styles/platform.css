@@ -118,6 +118,8 @@ nav .icon{
 #platformer{
     margin-top:5em;
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
     
 }
 
@@ -131,6 +133,7 @@ nav .icon{
 
 #platformer p{
     width:40%;
+    text-align: left;
 }
 
 #platformer img{
@@ -151,11 +154,11 @@ nav .icon{
 
 
 #platformer a:visited{
-    color: var(--deco-color);
+    color: var(--nav-text);
 }
 
 #platformer a:hover{
-    color: var(--about-color);
+    color: var(--yellow);
 }
 
 
