@@ -170,6 +170,10 @@ h2{
     margin-left: 10em;
 }
 
+#about #mobileimg{
+    display: none;
+}
+
 #about a{
     display:block;
     color: var(--nav-text);
@@ -223,6 +227,10 @@ section#portfolio section:first-of-type{
     box-shadow: 1px 1px 5px black;
 }
 
+#portfolio figure:first-of-type img{
+    object-fit:scale-down;
+}
+
 #portfolio p{
     margin-bottom:4em;
     margin-top:1em;
@@ -237,7 +245,7 @@ section#portfolio section:first-of-type{
 /* STATES */
 
 section#portfolio section:first-of-type figure img:hover{   /* don't know if im a fan of this*/
-    opacity: 0.7;
+    opacity: 0.4;
     transition: ease;
     transition-duration: .4s;
 }
@@ -326,5 +334,17 @@ Show the link that contains should open and close the topnav (.icon) */
       float: none;
       display: block;
       text-align: left;
+    }
+
+
+
+    #about img{
+        display: none;
+    }
+
+    #about #mobileimg{
+        display: block;
+        width:20%;
+    border-radius: 10px;
     }
   }
