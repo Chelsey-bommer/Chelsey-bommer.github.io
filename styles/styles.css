@@ -25,6 +25,7 @@
     --deco-color: #483838;
     --soft-text: #d0c7c4;
     --nav-text: #ddd;
+    --yellow: #D9AD29;
 }
 
 
@@ -52,7 +53,7 @@ h1, h2, h3{
 }
 
 p, a{
-    margin-top:1em;
+    
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -68,6 +69,7 @@ p, a{
 
 
 header{
+   
     display: flex;
     justify-content: space-between;
     margin-left: 10%;
@@ -82,9 +84,11 @@ header h3{
     font-size: 1.5em;
 }
 
+
 nav a{
     padding: 0 5px 0 5px;
     color: var(--nav-text);
+    text-decoration: none;
 }
 
 nav .icon{
@@ -106,7 +110,16 @@ nav .icon{
 
 
 #home a{
-    color: var(--nav-color);
+    display:block;
+    color: var(--nav-text);
+    background-color: var(--yellow);
+    text-decoration: none;
+    font-weight:600;
+
+    padding: 10px;
+    margin-top: 4em;
+    width: 11em;
+  
 }
 
 #home h1{
@@ -238,7 +251,8 @@ section#portfolio section:first-of-type{
 }
 
 #portfolio a{
-    color: black;
+    color: var(--nav-text);
+    text-decoration: none;
 }
 
 
