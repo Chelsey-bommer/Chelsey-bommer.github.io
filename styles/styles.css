@@ -189,52 +189,6 @@ h2{
 
 
 
-/****** SKILLS SECTION ******/
-/**************************/
-
-#skills{
-    margin-top: 3em;
-    display: flex;
-    flex-direction: row;
-   justify-content: center;
-    z-index:99;
-}
-
-
-#skills article:first-of-type{
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;;
-}
-
-#skills article:nth-of-type(2){
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;;
-}
-
-#skills h3{
-    margin-right: 10em;
-}
-
-#skills p{
-    margin-bottom: 1em;
-}
-
-#skills p:first-of-type{
-    margin-top: 1em;
-}
-
-
-
-
-
-/****** COLOR SECTION ******/
-/**************************/
-
-#color{
-   
-}
-
-
 
 
 
@@ -289,11 +243,12 @@ section#portfolio section:first-of-type figure img:hover{   /* don't know if im 
 }
 
 #portfolio a:visited{
-    color: var(--deco-color);
+    color: var(--nav-text);
 }
 
 #portfolio a:hover{
-    color: var(--about-color);
+    color: var(--yellow);
+    font-weight: 400;
 }
 
 
@@ -332,9 +287,6 @@ footer p{
     margin-bottom: 20px;
 }
 
-fa-linkedin{
-    
-}
 
 
 
