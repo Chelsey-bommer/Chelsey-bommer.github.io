@@ -323,8 +323,8 @@ Show the link that contains should open and close the topnav (.icon) */
 
     nav a.icon {
       position: absolute;
-      right: 0;
-      top: 0;
+      right: 10px;
+      top: 17px;
       display: block;
     }
 
@@ -336,8 +336,8 @@ Show the link that contains should open and close the topnav (.icon) */
     }
     nav.responsive a.icon {
       position: absolute;
-      right: 0;
-      top: 0;
+      right: 10px;
+      top: 17px;
     }
     nav.responsive a {
       float: none;
@@ -353,8 +353,9 @@ Show the link that contains should open and close the topnav (.icon) */
 
     #about #mobileimg{
         display: block;
-        width:20%;
-    border-radius: 10px;
+        width:50%;
+        border-radius: 10px;
+        margin-left: 0;
     }
 
     section#portfolio section:first-of-type{
