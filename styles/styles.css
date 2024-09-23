@@ -52,6 +52,10 @@ h1, h2, h3{
    
 }
 
+h1{
+    font-size: 5em;
+}
+
 p, a{
     
     font-family: "Poppins", sans-serif;
@@ -319,7 +323,7 @@ Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
     nav{
         position: absolute;
-        right: 40px;
+        right: 45px;
         top: 20px;
     }
     nav a:not(:first-child) {
@@ -328,7 +332,7 @@ Show the link that contains should open and close the topnav (.icon) */
 
     nav a.icon {
       position: absolute;
-      right: -20px;
+      right: -25px;
       top: 0px;
       display: block;
     }
@@ -343,7 +347,7 @@ Show the link that contains should open and close the topnav (.icon) */
     }
     nav.responsive a.icon {
       position: absolute;
-      right: -20px;
+      right: -25px;
       top: 0px;
     }
     nav.responsive a {
