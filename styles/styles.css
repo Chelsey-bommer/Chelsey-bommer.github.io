@@ -67,14 +67,23 @@ p, a{
 /******* NAVIGATION *********/
 /****************************/
 
-
 header{
+    width: 100%;
+    top:0;
+    background-color:#302B51 ;
+    position: sticky;
+}
+
+#header{
    
     display: flex;
     justify-content: space-between;
+
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
 }
 
 header h3{
@@ -346,5 +355,14 @@ Show the link that contains should open and close the topnav (.icon) */
         display: block;
         width:20%;
     border-radius: 10px;
+    }
+
+    section#portfolio section:first-of-type{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap:2em;
+    
+        
     }
   }

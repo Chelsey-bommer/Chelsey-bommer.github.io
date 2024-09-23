@@ -1,0 +1,114 @@
+/* ALGEMENE STYLES */
+/******************/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquarda+Bastarda+9&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquarda+Bastarda+9&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* COLORS */
+
+:root {
+    --nav-color: black;
+    --background-color: white;
+    --about-color: #1e704b;
+    --deco-color: #483838;
+    --soft-text: #d0c7c4;
+    --nav-text: #ddd;
+    --yellow: #D9AD29;
+}
+
+
+html {
+
+    scroll-behavior: smooth;
+    position: absolute;
+}
+
+body {
+
+    font-family: 'Metrophobic', sans-serif;
+    font-family: 'FontAwesome';
+    background-color: #302B51;
+    color: white;
+
+    position: fixed;
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+p,
+a {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+/******* NAVIGATION *********/
+/****************************/
+
+
+header{
+    width: 100%;
+    top:0;
+    background-color:#302B51 ;
+    position: sticky;
+}
+
+#header{
+   
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+
+header h3{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    
+}
+
+
+nav a{
+    padding: 0 5px 0 5px;
+    color: var(--nav-text);
+    text-decoration: none;
+}
+
+nav .icon{
+    display: none;
+}
