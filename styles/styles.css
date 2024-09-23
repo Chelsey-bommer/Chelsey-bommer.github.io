@@ -82,6 +82,7 @@ header h3{
     font-weight: 400;
     font-style: normal;
     font-size: 1.5em;
+    
 }
 
 
@@ -103,7 +104,7 @@ nav .icon{
 
 #home{
     margin-top: 10em;
-    margin-bottom: 25em;
+    margin-bottom: 22em;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -121,6 +122,7 @@ nav .icon{
     width: 11em;
   
     border-radius: 10px;
+    box-shadow: 2px 2px 1px var(--nav-text);
 }
 
 #home h1{
@@ -143,7 +145,7 @@ nav .icon{
  
 #about{
     
-    margin-top: 10em;
+    margin-bottom: 22em;
     margin-left: 10%;
     margin-right: 10%;
 
@@ -151,6 +153,7 @@ nav .icon{
 
 #about section{
     display:flex;
+    
 }
 
 h2{
@@ -163,6 +166,7 @@ h2{
 
 img{
     width:20%;
+    border-radius: 10px;
 }
 
 
@@ -223,9 +227,8 @@ img{
 
 
 #portfolio{
-    text-align: center;
-    margin-top: 10em;
-
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 section#portfolio section:first-of-type{
@@ -234,8 +237,7 @@ section#portfolio section:first-of-type{
     grid-column-gap: 15px;
     grid-row-gap:2em;
 
-    margin-left:6em;
-    margin-right:6em;
+    
 }
 
 #portfolio figure{
