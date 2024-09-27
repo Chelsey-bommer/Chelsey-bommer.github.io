@@ -1,0 +1,1622 @@
+
+/***********************************
+***************FONTS***************
+***********************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+  /* special elite */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');  /* Courier */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap'); /* PT Sans Narrow */
+
+
+
+
+
+
+
+/***********************************
+*********CUSTOM PROPERTIES**********
+***********************************/
+
+:root {
+    --main-color: #000000;
+    --secondary-color: #FFFFFF;
+    --accent-color:#aaaaaa;
+    --input-color:#242424;
+    --focus-color:#e95144;
+     --next-page:#e3e5e4;
+}
+
+
+
+
+
+
+
+
+/***********************************
+*********BODY STYLES***************
+***********************************/
+body {
+    margin:0;
+    position:relative;
+    
+}
+
+
+
+
+
+
+
+
+/***********************************
+********HEADER STYLES***************
+***********************************/
+header {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+
+    text-align: center;
+    width:100%;
+
+    position: relative;
+}
+
+header p {
+    /* tekst opmaak */
+    text-transform: uppercase;
+    font-weight:400;
+    font-size:14px;
+    line-height:23px;
+   
+    /*MARGIN AND PADDING VAN TEKST */
+    padding-bottom: 0.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    
+}
+
+/* logo */
+header img:nth-of-type(1) {
+    margin-top: 0.5em;
+    width:8.5em;
+    max-width: 160px;
+}
+
+/* Winkelwagen */
+header img:nth-of-type(2) {
+    width:1.8em;
+    position:absolute;
+    top:0.3em;
+    right:1.2em;
+}
+
+/* hartje */
+header img:nth-of-type(3) {
+    width:1.5em;
+    position:absolute;
+    top:0.9em;
+    right:4em;
+}
+
+/* Zoek icoon */ 
+header img:nth-of-type(4) {
+    width:1.2em;
+    position:absolute;
+    top:0.9em;
+    left:3.5em;
+}
+
+/* Menu */
+header nav button img:nth-of-type(1) {
+  width:1.5em;
+  position:absolute;
+  top:1em;
+  left:1em;
+}
+
+header button {
+ margin:0%;
+ background-color: var(--main-color);
+ border:none;
+}
+
+
+
+/* NAV STYLES */
+
+nav {
+    padding:0;
+
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+
+    position:relative;
+}
+
+/* positie en styles van menu */
+nav ul:first-of-type {
+    list-style: none;
+
+    margin:0;
+    padding:0;
+
+    position:fixed;
+    top:3em;
+	left:0em;
+	right:30%;
+	bottom:0;
+
+    z-index: 99;
+    transform:translateX(-100%);
+    transition: .2s;
+
+    background-color: var(--main-color);
+
+    text-align: left;
+}
+
+/* menu button */
+nav button {
+    position: absolute;
+    top:-10em;
+    left:.5em;
+}
+
+nav button img {
+    z-index: 100;
+}
+
+/* Vlag in het menu */
+nav img:last-of-type{
+    width:12%;
+}
+
+/* Tekst plaatsing */
+nav ul:first-of-type li{
+    margin-left:10%;
+    margin-right: 5%;
+    margin-top: 10%;
+    padding:0;
+
+    background-color: var(--main-color);
+}
+
+
+nav ul:first-of-type li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+
+    margin:0;
+    padding:0; 
+}
+
+/* Menu in/uitklappen */
+nav ul.MenuAdd {
+    transform:translateX(0%);
+}
+
+
+/* STATES */
+
+header img:hover, nav a:hover {
+    border-bottom: solid .1em var(--secondary-color);
+}
+
+nav button:hover {
+    width: 1.7em;
+}
+
+header img:first-of-type:hover {
+    border:none;
+}
+
+nav img:active, a:active, img:active {
+    border: dashed .1em var(--secondary-color);
+}
+ 
+ header img:focus, nav a:focus {
+    border: solid .2em var(--focus-color);
+    outline:none;
+} 
+
+
+
+
+
+/***********************************
+********MAIN STYLES***************
+***********************************/
+main {
+    font-family: 'Special Elite', cursive;
+    
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/***********************************
+********SLIDESHOW STYLES************
+***********************************/
+/* Slideshow foto's */
+ section:first-of-type ul:first-of-type {
+    margin:0;
+    padding: 0;
+
+    list-style: none;
+    display:flex;
+    overflow:auto;
+
+}
+
+/* Knoppen */
+section:first-of-type ul:nth-of-type(2) {
+    margin:0;
+    padding: 0;
+
+    list-style: none;
+    display:flex;
+    overflow:auto;
+
+    justify-content: center;
+}
+
+/* Slideshow foto's */
+section:first-of-type ul:first-of-type li  {
+    flex-shrink:0;
+    width:100%;
+    
+}
+
+/* Knoppen */
+section:first-of-type ul:nth-of-type(2) li  {
+    flex-shrink:0;
+    width:3%;
+    margin:.5em;
+    
+}
+
+/* Slideshow foto's */
+section:first-of-type ul:first-of-type li a img {
+    width:100%;
+}
+
+/* Knoppen */
+section:first-of-type ul:nth-of-type(2) li a img {
+    width:100%;
+}
+ 
+
+/* Shop collection button en tekst*/
+section:nth-of-type(1) {
+    position:relative;
+}
+
+section:nth-of-type(1) section {
+    position: absolute;
+    top:10%;
+    left:8em;  
+    width:100%;
+}
+
+section:first-of-type h2{
+    text-transform: uppercase;
+    font-weight:bold;
+    color:var(--secondary-color);
+    font-size: 20px;
+}
+
+section:first-of-type h4{
+    color: var(--secondary-color);
+    font-weight: normal;
+    font-size:15px;
+}
+
+section:nth-of-type(1) a {
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+section:nth-of-type(1) a p {
+   /* Tekst opmaak */
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:bold;
+    color:var(--secondary-color);
+    text-shadow: 10px 10px 100px var(--main-color);
+    
+    background-color:var(--main-color);
+   
+    padding:1em;
+    width:40%;   
+}
+
+
+/* STATES */
+
+/* Buttons */
+section:first-of-type ul:nth-of-type(2) a:hover{
+    border-bottom: solid .1em var(--main-color);
+}
+
+/* Shop all */
+section:first-of-type  p:hover{
+    border-bottom: solid .3em var(--secondary-color);
+}
+
+/* Buttons */
+section:first-of-type ul:nth-of-type(2) a:active{
+    border: dashed .1em var(--main-color);
+    border-radius: 60%;
+}
+
+/* Shop all */
+section:nth-of-type(1) section a p:active{
+    border: dashed .2em var(--focus-color);
+    outline:none;
+}
+
+/* Buttons */
+section:first-of-type ul:nth-of-type(2) a:focus{
+    border: solid .2em var(--focus-color);
+    outline:0;
+}
+
+
+
+
+/***********************************
+************NEW ARRIVALS************
+***********************************/
+
+section:nth-of-type(2) {
+    margin-top: 3em;
+    margin-bottom: 20%;
+    width: 100%;
+    
+}
+
+section:nth-of-type(2) ul {
+    padding:0;
+
+    list-style-type: none;
+    
+    /* Grid van plaatjes */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;   
+}
+
+section:nth-of-type(2) ul li:nth-of-type(4) {
+    margin-bottom: 5%; 
+}
+
+
+/* Button "Show More" */
+section:nth-of-type(2) a:nth-of-type(1) {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:bold;
+
+    color:var(--secondary-color);
+    background-color:var(--main-color);
+   
+    padding:1em; 
+}
+
+section:nth-of-type(2) li:last-of-type{
+   margin-left:25%;
+   margin-right:25%;
+}
+
+section:nth-of-type(2)  img:first-of-type{
+    width:10em;
+    margin:0%;
+    padding:0;
+    padding-bottom:.5em;   
+}
+
+section:nth-of-type(2) li {
+    position: relative; 
+}
+
+/* Sterren */
+section:nth-of-type(2) li:first-of-type  img:nth-of-type(2) {
+    position: absolute;
+    left:3em; 
+    top:14em;
+    width:40%;
+}
+
+section:nth-of-type(2) li:nth-of-type(2) img:nth-of-type(2) {
+    position: absolute;
+    left:3em; 
+    top:14em;
+    width:40%;
+}
+
+section:nth-of-type(2) li:nth-of-type(3) img:nth-of-type(2) {
+    position: absolute;
+    left:3em; 
+    top:14em;
+    width:40%;
+}
+section:nth-of-type(2) li:nth-of-type(4) img:nth-of-type(2) {
+    position: absolute;
+    left:3em; 
+    top:14em;
+    width:40%;
+}
+
+
+/* "New Arrivals" */
+section:nth-of-type(2) h3 {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+/* Schoennamen */
+section:nth-of-type(2) h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-bottom: 2.5em;
+    padding:0;
+    
+}
+
+/* Prijzen */
+section:nth-of-type(2) p {
+    text-align: center;
+    font-weight:bold;
+}
+
+
+/* STATES */
+section:nth-of-type(2) a:hover {
+    border-bottom: solid .3em var(--accent-color)
+}
+
+section:nth-of-type(2) a:active {
+    border: dashed .2em var(--secondary-color);
+}
+
+section:nth-of-type(2) a:focus{
+    border: solid .2em var(--focus-color);
+    outline:none;   
+}
+
+
+
+
+
+/******************************
+******Big images section********
+*******************************/
+section:nth-of-type(3) {
+    text-align: center;
+    position:relative;
+    
+}
+
+section:nth-of-type(3) img {
+  width: 100%;
+}
+
+/* Grote tekst */
+section:nth-of-type(3) h1:first-of-type {
+    color: var(--secondary-color);
+    font-size:42px;
+    text-transform: uppercase;
+
+    position: absolute;
+    top:20%;
+    
+}
+
+section:nth-of-type(3) h1:last-of-type {
+    color: var(--secondary-color);
+    font-size:42px;
+    text-transform: uppercase;
+
+    position: absolute;
+    top:60%;
+}
+
+
+
+
+
+
+/******************************
+******Most popular section******
+*******************************/
+section:nth-of-type(4){
+    text-align: center;
+}
+
+/* Slideshow */
+section:nth-of-type(4) ul:first-of-type {
+    margin-bottom:5%;
+    padding: 0;
+
+    list-style: none;
+    display:flex;
+    overflow:auto;
+}
+
+/* Knoppen vd slider*/
+section:nth-of-type(4) ul:last-of-type {
+    margin-bottom:15%;
+    padding: 0;
+
+    list-style: none;
+    display:flex;
+    justify-content: center;
+}
+
+/* Slideshow */
+section:nth-of-type(4) ul:first-of-type li {
+    width:100%;
+    flex-shrink: 0;
+
+}
+
+/*Knoppen vd slider*/
+section:nth-of-type(4) ul:last-of-type li {
+    width:3%;
+    margin:.5em;
+    flex-shrink: 0;
+}
+
+/* Slideshow img */
+section:nth-of-type(4) ul:first-of-type li img {
+    width:60%;
+    flex-shrink: 0;
+}
+
+/* Knoppen vd slider */
+section:nth-of-type(4) ul:last-of-type li img {
+    width:100%;
+    flex-shrink: 0;
+    
+}
+
+/* Schoen naam */
+section:nth-of-type(4) ul:first-of-type li p:first-of-type {
+    font-size: 14px;
+}
+
+/* Prijs */
+section:nth-of-type(4) ul:first-of-type li p:last-of-type  {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+/* STATES */
+
+section:nth-of-type(4) ul li a img:hover{
+    border-bottom: solid .1em var(--main-color);
+}
+
+section:nth-of-type(4) ul:first-of-type img:hover{
+    border:none;
+}
+
+section:nth-of-type(4) ul li a img:active{
+    border: dashed .1em var(--main-color);
+    outline:none;
+}
+
+section:nth-of-type(4) ul li a img:focus {
+    border: solid .2em var(--focus-color);
+    outline:none;
+}
+
+
+
+
+
+/******************************
+*******Welcome section*********
+*******************************/
+
+
+/*Big image */ 
+section:nth-of-type(5) img{
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+section:nth-of-type(6) {
+    text-align: center;
+}
+
+
+/* Welcome text */
+section:nth-of-type(6) p {
+    font-size: 14px;
+    line-height: 23px;
+    width: 80%;
+
+    margin-bottom: 5%;
+   margin-left:10%;
+    
+}
+
+/* Shop now button */
+section:nth-of-type(6) a {
+    padding:1em;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:bold;
+
+    color:var(--secondary-color);
+    background-color:var(--main-color);
+
+
+}
+
+
+/* STATES */
+
+section:nth-of-type(6) a:hover{
+    border-bottom: solid .3em var(--accent-color);
+
+}
+
+
+
+/******************************
+*******Instagram section*********
+*******************************/
+/* Tekst */
+section:nth-of-type(7) {
+    text-align: center;
+
+    margin-top: 20%;
+}
+
+section:nth-of-type(7) h3 {
+    font-size: 22px;
+}
+
+section:nth-of-type(7) p{
+    font-size: 14px;
+    margin-bottom: 5%;
+}
+
+
+/* pictures */
+section:nth-of-type(8) ul{
+  list-style: none;
+  
+  margin-bottom:10%;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section:nth-of-type(8) ul li{
+    width:33%;
+    flex-shrink: 0;
+
+    margin:0;
+    padding:0;
+}
+
+section:nth-of-type(8) ul li img {
+    width:100%;
+}
+
+/* follow us button */
+section:nth-of-type(8) a {
+    padding:1em;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:bold;
+
+    color:var(--secondary-color);
+    background-color:var(--main-color);
+
+    margin-left:37.5%;  
+}
+
+
+/* STATES */
+section:nth-of-type(8) a:hover{
+    border-bottom: solid .3em var(--accent-color);
+}
+
+
+
+
+
+/******************************
+*************FOOTER*************
+*******************************/
+
+footer {
+    background-color: var(--main-color);
+
+    font-family: 'Special Elite', cursive;
+    color: var(--secondary-color);
+
+    margin-top: 15%; 
+}
+
+/* Lijstjes */
+footer ul {
+    margin:5%;
+    margin-left:0%;
+    padding:0;
+   
+    list-style: none;  
+}
+
+footer ul li {
+    margin:3%;
+   
+    font-size:14px;
+}
+
+/* Logo */
+footer img {
+    margin:5%;
+    width:45%;
+    justify-self: center;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    margin:0%;
+    margin-left:3%;
+    margin-top:10%;
+}
+
+footer h4:last-of-type{
+    margin-bottom:5%;
+}
+
+/* News letter */
+input {
+    margin-bottom:5%;
+    margin-left: 1%;
+    margin-right:1%;
+    width:75%;
+    height: 2em;
+}
+
+/* News letter button */
+footer button {
+    padding:.5em;
+    margin:0;
+    width:20%;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:bold;
+
+    color:var(--secondary-color);
+    background-color:var(--input-color);
+    border:none;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer p{
+    margin-left:4%;
+    margin-bottom: 0;
+    padding-bottom:3%;
+    
+    background-color: var(--main-color);
+
+    font-size:14px;
+}
+
+footer p:last-of-type{
+    margin-left:42%;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+/* STATES */
+footer button:hover{
+    border-bottom: solid .3em var(--secondary-color);
+
+}
+
+footer button:active{
+    border: dashed .1em var(--main-color);
+}
+
+footer button:focus {
+    outline:none;
+    border: solid .2em var(--focus-color);
+    
+}
+
+
+/***********************
+******MEDIA QUERYS******
+***********************/
+
+@media (min-width:424px) {
+   
+    nav button {
+        top:-8.5em;
+        left:.5em;
+    }
+}
+
+@media (min-width:470px) {
+
+    section:nth-of-type(1) section {
+        left:8em;   
+    }
+
+    /*New arrivals */
+    /*****************/
+    section:nth-of-type(2)  li img:first-of-type{
+        min-width:11em;
+    }
+
+  /* Sterren */
+   section:nth-of-type(2) li:first-of-type  img:nth-of-type(2) {
+     top:15em;
+     left:3.4em;
+   }
+
+   section:nth-of-type(2) li:nth-of-type(2) img:nth-of-type(2) {
+     top:15em;
+     left:3.4em; 
+   }
+
+   section:nth-of-type(2) li:nth-of-type(3) img:nth-of-type(2) {
+     top:15em;
+     left:3.4em; 
+   }
+
+   section:nth-of-type(2) li:nth-of-type(4) img:nth-of-type(2) {
+     left:3.4em; 
+     top:15em;
+   }
+}
+
+/* Menu styling voor ipad formaat */
+@media (max-width: 767px) {
+    nav ul:nth-of-type(2){
+        display:none;
+    }
+
+}
+
+
+
+@media (min-width:768px) {
+     /***** HEADER*****/
+    /*****************/
+
+    /* nav styles */
+    header nav button img:nth-of-type(1) {
+        display:none;
+    }
+
+    /* Zoek icoon */ 
+    header img:nth-of-type(4){
+        width:.9em;
+        top:3.5em;
+        left:86%;
+    }
+
+    /* hartje */
+    header img:nth-of-type(3) {
+     width:1.1em;
+     position:absolute;
+     top:3.5em;
+     right:3.5em;
+   }
+
+   /* Winkelwagen */
+   header img:nth-of-type(2) {
+     width:1.4em;
+     position:absolute;
+     top:3em;
+     right:1.2em;
+   }
+
+   /* logo */
+   header img:nth-of-type(1) {
+     width:9em;
+
+     position: absolute;
+     top:2em;
+     left:1.5em;
+   }
+
+   header p {
+     background-color: var(--main-color);
+     text-transform: lowercase;
+
+    /*MARGIN AND PADDING VAN TEKST */
+     padding-bottom: 0.2em;
+     padding-top:1em;
+     margin-left: 1em;
+     margin-right: 1em;
+     margin-bottom: 2em;
+     margin-top:0;
+   }
+
+
+ /* Menu bij ipad of > */
+   nav ul:nth-of-type(2){
+       display:flex;
+       flex-wrap: wrap;
+      justify-content: center;
+      
+       margin:0;
+       padding:2em;
+
+       list-style-type: none;
+   }
+
+   nav ul:nth-of-type(2) li a {
+     color: var(--secondary-color);
+     text-decoration: none;
+
+     margin:.5em;
+   }
+
+   
+
+
+    
+
+   /********SLIDESHOW********/
+  /*************************/
+     /* Knoppen */
+    section:first-of-type ul:nth-of-type(2) li  {
+        flex-shrink:0;
+        width:2%;
+        margin:.5em;
+    }
+
+     /* Shop collection button en tekst*/
+    section:nth-of-type(1) {
+     position:relative;
+    }
+
+   section:nth-of-type(1) section {
+     top:10%;
+     left:15em;  
+     width:100%;
+   }
+
+   section:first-of-type h2{
+     font-size: 50px;
+   }
+
+   section:first-of-type h4{
+     font-size:25px;
+   }
+
+   section:nth-of-type(1) a p{
+       width:30%;
+   }
+    
+
+  /********aRRIVALS********/
+  /*************************/
+
+   /* New arrivals */
+   section:nth-of-type(2) h3{
+       font-size:22px;
+   }
+    
+   
+   /*********GROTE FOTOS*********/
+   /***************************/
+
+   /* Big images */
+   section:nth-of-type(3) img {
+    width: 48%;
+    margin-left: .2em;
+    margin-right:.2em;
+  }
+
+  /* Grote tekst */
+   section:nth-of-type(3) h1:first-of-type {
+     color: var(--secondary-color);
+     font-size:26px;
+
+     position: absolute;
+     top:50%;
+     left:1em;   
+   }
+
+   section:nth-of-type(3) h1:last-of-type {
+     color: var(--secondary-color);
+     font-size:30px;
+     
+     position: absolute;
+     left:14em;
+     top:50%;
+   }
+
+
+  /******MOST POPULAR********/
+  /*************************/
+   /*Knoppen vd slider*/
+   section:nth-of-type(4) ul:last-of-type li{
+       opacity:1%;
+   }
+
+   section:nth-of-type(4) ul:last-of-type li{
+       margin-bottom: 0;
+   }
+
+   
+  /* Slideshow */
+   section:nth-of-type(4) ul:first-of-type li {
+     width:33%; 
+     margin:0em;
+    }
+
+    section:nth-of-type(4) h3{
+        font-size: 22px;
+        margin-top:15%;
+    }
+   
+
+
+    /*******WELCOME SECTION*******/
+    /***************************/
+    section:nth-of-type(5) img{
+        width:90%;
+        margin-left:5%;
+    }
+
+    section:nth-of-type(6) p{
+        position:absolute;
+        top:52%;
+        left:-.5em;
+        z-index: 102;
+
+        width:60%;
+        padding:1em;
+
+        background-color: var(--secondary-color);
+    }
+
+    section:nth-of-type(6) h3{
+        position:absolute;
+        top:49%;
+        left:2em;
+        z-index: 101;
+
+        padding:1em;
+       
+        padding-bottom:2.4em;
+
+        background-color: var(--secondary-color);
+        font-size:35px;
+
+    }
+    
+    /* Button Shop Now*/
+    section:nth-of-type(6) a {
+        position: absolute;
+        left:30%;
+        width:15%;
+    }
+
+     /*****INSTAGRAM SECTION*****/
+    /***************************/
+    section:nth-of-type(8) ul li{
+        width:20%;
+    }
+    
+    section:nth-of-type(8) a {
+        margin-left:43%;
+    }
+
+    /*Footer */
+    /********/
+    footer img{
+        width:30%;
+    }
+    
+    footer ul{
+        margin:3%;
+    }
+   
+    footer h4:first-of-type{
+        margin-top:5%;
+    }
+    
+}
+
+@media (min-width:1024px) {
+
+     /***** HEADER*****/
+    /*****************/
+    header img:nth-of-type(4){
+        width:.9em;
+        top:3.5em;
+        left:89%;
+    }
+    
+
+    /*********SLIDESHOW*********/
+    /***************************/
+
+    /* Tekst slideshow */
+    section:nth-of-type(1) section {
+        top:10%;
+        left:20em;  
+        width:100%;
+    }
+
+       /* Knoppen */
+    section:first-of-type ul:nth-of-type(2) li  {
+        flex-shrink:0;
+        width:1.5%;
+        margin:.5em;
+    }
+
+   /*********GROTE FOTOS*********/
+    /***************************/
+
+    /* Grote tekst */
+    section:nth-of-type(3) h1:first-of-type {
+     color: var(--secondary-color);
+     font-size:30px;
+
+     position: absolute;
+     top:50%;
+     left:5%;   
+   }
+
+   section:nth-of-type(3) h1:last-of-type {
+     color: var(--secondary-color);
+     font-size:32px;
+    
+     position: absolute;
+     left:60%;
+     top:50%;
+  }
+
+   /*********MOST POPULAR*********/
+    /***************************/
+   section:nth-of-type(4) h3{
+       font-size: 26px;
+   }
+
+
+   /*******WELCOME SECTION*******/
+   /****************************/
+
+    section:nth-of-type(6) h3{
+        left:2.5em;
+    }
+
+    /* Button Shop Now*/
+    section:nth-of-type(6) a {
+        left:25%;
+        width:20%;
+    }
+}
+
+@media (min-width:1200px) {
+
+     /***** HEADER*****/
+    /*****************/
+   /* Zoek icoon */ 
+   header img:nth-of-type(4){
+    width:.9em;
+    top:3.5em;
+    left:91%;
+  }
+
+  /*********SLIDESHOW*********/
+    /***************************/
+
+    /* Tekst slideshow */
+    section:nth-of-type(1) section {
+        top:10%;
+        left:30em;  
+        width:100%;
+    }
+
+    
+    /*********GROTE FOTOS*********/
+    /***************************/
+
+    /* Grote tekst */
+    section:nth-of-type(3) h1:first-of-type {
+        font-size:36px;
+      }
+   
+      section:nth-of-type(3) h1:last-of-type {
+        color: var(--secondary-color);
+        font-size:38px;
+     }
+    
+    section:nth-of-type(4) h3{
+        font-size: 22px;
+        margin-top:5%;
+    }
+
+
+    /*******WELCOME SECTION*******/
+   /****************************/
+
+   section:nth-of-type(6) h3{
+    left:3.5em;
+    padding-bottom: 4em;
+   }
+
+  /* Button Shop Now*/
+  section:nth-of-type(6) a {
+    left:19%;
+    width:20%;
+   }
+   
+
+   /**********FOOTER***********/
+   /****************************/
+    footer img{
+        width:20%;
+    }
+    
+    footer ul{
+        margin:.5%;
+    }
+
+   
+    footer h4:first-of-type{
+        margin-top:3%;
+    }
+
+    
+}
+
+@media (min-width:1500px) {
+    
+    /***** HEADER*****/
+    /*****************/
+    
+    /* Zoek icoon */ 
+    header img:nth-of-type(4){
+        width:1.2em;
+        top:3.5em;
+        left:92.5%;
+    }
+
+    /* hartje */
+    header img:nth-of-type(3) {
+        width:1.4em;
+        position:absolute;
+        top:3.5em;
+        right:3.5em;
+      }
+   
+      /* Winkelwagen */
+      header img:nth-of-type(2) {
+        width:1.6em;
+        position:absolute;
+        top:3em;
+        right:1.2em;
+      }
+
+
+
+     /********SLIDESHOW********/
+     /*************************/
+      section:nth-of-type(1) section {
+        left:40em;  
+      }
+
+      section:nth-of-type(1) section h2{
+          font-size:60px;
+      }
+
+      section:first-of-type h4{
+        font-size:30px;
+      }
+   
+      section:nth-of-type(1) a p{
+          width:35%;
+          font-size:18px;
+      }
+
+      
+
+      /*******NEW ARRIVALS*******/
+     /*************************/
+      section:nth-of-type(2) {
+        margin-bottom: 10%; 
+    }
+    
+    /* Schoenen */
+    section:nth-of-type(2)  img:first-of-type{
+        width:13em;
+    }
+
+    /* Sterren */
+   section:nth-of-type(2) li:first-of-type  img:nth-of-type(2) {
+     left:4em; 
+     top:17em;
+    }
+
+   section:nth-of-type(2) li:nth-of-type(2) img:nth-of-type(2) {
+     left:4em; 
+     top:17em;
+    }  
+
+   section:nth-of-type(2) li:nth-of-type(3) img:nth-of-type(2) {
+     left:4em; 
+     top:17em;
+   }
+  section:nth-of-type(2) li:nth-of-type(4) img:nth-of-type(2) {
+     left:4em; 
+     top:17em;
+   }
+
+
+    /*********GROTE FOTOS*********/
+    /***************************/
+    
+    section:nth-of-type(3) h1:first-of-type {
+        font-size:44px;
+    }
+   
+    section:nth-of-type(3) h1:last-of-type {
+        color: var(--secondary-color);
+        font-size:44px;
+    }
+
+    /******MOST POPULAR********/
+   /*************************/
+
+   /* Schoen naam */
+  section:nth-of-type(4) ul:first-of-type li p:first-of-type {
+     font-size: 18px;
+   }
+
+  /* Prijs */
+  section:nth-of-type(4) ul:first-of-type li p:last-of-type  {
+     font-size: 20px;
+   }
+    
+   /******WELCOME SECTION********/
+   /**************************/
+   section:nth-of-type(6) h3{
+    left:4em;
+    padding-bottom: 4em;
+   }
+
+   section:nth-of-type(6) p{
+       font-size:16px;
+   }
+  
+   
+   /*********FOOTER***********/
+   /**************************/
+
+   /* Lijstjes */
+ footer ul {
+     margin:1%;
+     margin-left:1%;
+     padding:0;
+   
+     list-style: none;  
+}
+
+  footer ul li {
+     margin:2%;
+
+   
+     font-size:18px;
+   }
+}
+
+@media (min-width:2000px) {
+    
+    /***** HEADER*****/
+    /*****************/
+    
+    /* Zoek icoon */ 
+    header img:nth-of-type(4){
+        width:1.5em;
+        top:3.5em;
+        left:93.5%;
+    }
+
+    /* hartje */
+    header img:nth-of-type(3) {
+        width:1.6em;
+        position:absolute;
+        top:3.5em;
+        right:3.8em;
+      }
+   
+      /* Winkelwagen */
+      header img:nth-of-type(2) {
+        width:1.8em;
+        position:absolute;
+        top:3em;
+        right:1.2em;
+      }
+
+      /* logo */
+   header img:nth-of-type(1) {
+     width:11em;
+
+     position: absolute;
+     top:2em;
+     left:1.5em;
+  }
+    
+    nav{
+        font-size: 17px;
+    }
+
+    /********SLIDESHOW********/
+     /*************************/
+     section:nth-of-type(1) section {
+        left:45em;  
+      }
+
+      section:nth-of-type(1) section h2{
+          font-size:70px;
+      }
+
+      section:first-of-type h4{
+        font-size:40px;
+      }
+   
+      section:nth-of-type(1) a p{
+          width:35%;
+          font-size:22px;
+      }
+
+      
+      /*****NEW ARRIVALS********/
+     /*************************/
+
+
+         /* Schoenen */
+      section:nth-of-type(2)  img:first-of-type{
+         width:18em;
+    }
+
+    /* Sterren */
+    section:nth-of-type(2) li:first-of-type  img:nth-of-type(2) {
+         left:5em; 
+         top:23em;
+         width:45%;
+    }
+
+   section:nth-of-type(2) li:nth-of-type(2) img:nth-of-type(2) {
+     left:5em; 
+     top:23em;
+     width:45%;
+    }  
+
+   section:nth-of-type(2) li:nth-of-type(3) img:nth-of-type(2) {
+     left:5em; 
+     top:23em;
+     width:45%;
+   }
+  section:nth-of-type(2) li:nth-of-type(4) img:nth-of-type(2) {
+     left:5em; 
+     top:23em;
+     width:45%;
+   }
+
+   /* Schoennamen */
+  section:nth-of-type(2) h4 {
+     font-weight: lighter;
+     margin-bottom: 2.5em;
+     padding:0;
+     font-size:24px;
+    
+    }
+
+  /* Prijzen */
+   section:nth-of-type(2) p {
+     font-size: 20px;
+   }
+
+   section:nth-of-type(2) h3{
+       font-size:30px;
+   }
+
+   section:nth-of-type(2) li a{
+       font-size:20px;
+   }
+
+
+   /*****MOST POPULAR*******/
+  /*************************/
+
+  section:nth-of-type(4) h3{
+    font-size: 32px;
+  }
+
+  
+    /*******WELCOME SECTION*******/
+   /****************************/
+
+
+  /* Button Shop Now*/
+  section:nth-of-type(6) a {
+    display:none;
+   }
+
+
+  /*******INSTA SECTION*******/
+  /****************************/
+   /* Tekst */
+ section:nth-of-type(7) {
+    text-align: center;
+
+    margin-top: 5%;
+ }
+
+ section:nth-of-type(7) h3 {
+    font-size: 30px;
+ }
+
+ section:nth-of-type(7) p{
+    font-size: 20px;
+    
+  }
+  
+  section:nth-of-type(8) a{
+      font-size:20px;
+      margin-left:46%;
+  }
+
+
+
+  
+  /***********FOOTER***********/
+  /****************************/
+
+  footer{
+      font-size: 28px;
+  }
+}
+
+
+    
+
+

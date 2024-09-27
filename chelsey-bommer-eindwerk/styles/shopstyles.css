@@ -1,0 +1,812 @@
+/***********************************
+***************FONTS***************
+***********************************/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+  /* special elite */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');  /* Courier */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap'); /* PT Sans Narrow */
+
+
+
+
+
+
+
+/***********************************
+*********CUSTOM PROPERTIES**********
+***********************************/
+
+:root {
+    --main-color: #000000;
+    --secondary-color: #FFFFFF;
+    --accent-color:#aaaaaa;
+    --input-color:#242424;
+    --focus-color:#e95144;
+    --next-page:#e3e5e4;
+}
+
+
+
+
+
+
+
+
+/***********************************
+*********BODY STYLES***************
+***********************************/
+body {
+    margin:0;
+    position:relative;
+}
+
+
+
+
+
+/***********************************
+********HEADER STYLES***************
+***********************************/
+header {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+
+    text-align: center;
+    width:100%;
+
+    position: relative;
+}
+
+header p {
+    /* tekst opmaak */
+    text-transform: uppercase;
+    font-weight:400;
+    font-size:14px;
+    line-height:23px;
+   
+    /*MARGIN AND PADDING VAN TEKST */
+    padding-bottom: 0.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    
+}
+
+/* logo */
+header img:nth-of-type(1) {
+    margin-top: 0.5em;
+    width:8.5em;
+    max-width: 160px;
+}
+
+/* Winkelwagen */
+header img:nth-of-type(2) {
+    width:1.8em;
+    position:absolute;
+    top:0.3em;
+    right:1.2em;
+}
+
+/* hartje */
+header img:nth-of-type(3) {
+    width:1.5em;
+    position:absolute;
+    top:0.9em;
+    right:4em;
+}
+
+/* Zoek icoon */ 
+header img:nth-of-type(4) {
+    width:1.2em;
+    position:absolute;
+    top:0.9em;
+    left:3.5em;
+}
+
+/* Menu */
+header nav button img:nth-of-type(1) {
+  width:1.5em;
+  position:absolute;
+  top:1em;
+  left:1em;
+}
+
+header button {
+ margin:0%;
+ background-color: var(--main-color);
+ border:none;
+}
+
+
+
+/* NAV STYLES */
+
+nav {
+    padding:0;
+
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+
+    position:relative;
+
+}
+
+/* positie en styles van menu */
+nav ul:first-of-type {
+    list-style: none;
+
+    margin:0;
+    padding:0;
+
+    position:fixed;
+    top:3em;
+	left:0em;
+	right:30%;
+	bottom:0;
+
+    z-index: 99;
+    transform:translateX(-100%);
+    transition: .2s;
+
+    background-color: var(--main-color);
+
+    text-align: left;
+}
+
+/* menu button */
+nav button {
+    position: absolute;
+    top:-10em;
+    left:.5em;
+}
+
+nav button img {
+    z-index: 100;
+}
+
+/* Vlag in het menu */
+nav img:last-of-type{
+    width:12%;
+}
+
+/* Tekst plaatsing */
+nav ul:first-of-type li{
+    margin-left:10%;
+    margin-right: 5%;
+    margin-top: 10%;
+    padding:0;
+
+    background-color: var(--main-color);
+}
+
+
+nav ul:first-of-type li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+
+    margin:0;
+    padding:0; 
+}
+
+/* Menu in/uitklappen */
+nav ul.MenuAdd {
+    transform:translateX(0%);
+}
+
+
+/* STATES */
+
+header img:hover, nav a:hover {
+    border-bottom: solid .1em var(--secondary-color);
+}
+
+nav button:hover {
+    width: 1.7em;
+}
+
+header img:first-of-type:hover {
+    border:none;
+}
+
+nav img:active, a:active, img:active {
+    border: dashed .1em var(--secondary-color);
+}
+ 
+ header img:focus, nav a:focus {
+    border: solid .2em var(--focus-color);
+    outline:none;
+} 
+
+
+
+
+
+/***********************************
+********MAIN STYLES***************
+***********************************/
+main {
+    font-family: 'Special Elite', cursive;
+    
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+
+
+
+
+/******************************
+*********BANNER SECTIE**********
+*******************************/
+section:first-of-type h1 {
+  text-align: center;
+}
+
+/* Banner img */
+section:first-of-type img{
+  width:100%;
+  margin-bottom:15%;
+}
+
+/* Filter/Sort */
+section:first-of-type h1{
+    font-size: 14px;
+    text-transform: uppercase;
+
+    background-color: var(--main-color);
+    color:var(--secondary-color);
+
+    padding:1em;
+   margin-left:.2em;
+   margin-right:.2em;
+}
+
+
+/* Home / all */
+section:first-of-type a{
+    color: var(--accent-color);
+    font-size: 14px;
+    text-decoration: none;
+
+    margin-left: 3%;
+}
+
+/* STATES */
+section:first-of-type a:hover{
+    border-bottom: solid .1em var(--accent-color);
+
+}
+
+section:first-of-type a:active{
+    border: dashed .1em var(--accent-color);
+}
+
+section:first-of-type a:focus {
+    border: solid .1em var(--main-color);
+    outline:none;
+}
+
+
+
+
+
+/******************************
+*************ITEMS*************
+*******************************/
+
+section:nth-of-type(2){
+    margin-top: 3em;
+    margin-bottom: 20%;
+    width: 100%;
+}
+
+/* Flexbox plaatjes */
+section:nth-of-type(2) ul {
+    padding:0;
+
+    list-style-type: none;
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    
+}
+
+section:nth-of-type(2) ul li a img:first-of-type{
+    width:10em;
+    margin:0%;
+    padding:0;
+    padding-bottom:.5em;
+}
+
+section:nth-of-type(2) li {
+    position: relative;
+    text-align: center;
+    margin-bottom:20%;
+}
+
+
+/* Sterren */
+section:nth-of-type(2) ul li img:nth-of-type(2){
+    width:10em;
+}
+
+/* Titel Schoen*/
+section:nth-of-type(2) ul:first-of-type li p:first-of-type {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin:.5em;
+}
+
+/* Reviews text */
+section:nth-of-type(2) ul:first-of-type li p:nth-of-type(2){
+    font-size:14px;
+    text-transform: uppercase;
+    margin:.5em;
+}
+
+/* Prijs */
+section:nth-of-type(2) ul:first-of-type li p:last-of-type  {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+/* Hartje styles */
+section:nth-of-type(2) li:nth-of-type(4) section{
+    position: relative;
+}
+
+section:nth-of-type(2) ul li:nth-of-type(4) section img{
+    width:10%;
+    position:absolute;
+    top:-15em;
+    right:.5em;
+}
+
+section:nth-of-type(2) li:nth-of-type(5) section{
+    position: relative;
+}
+
+section:nth-of-type(2) ul li:nth-of-type(5) section img{
+    width:10%;
+    position:absolute;
+    top:-15em;
+    right:.5em;
+}
+
+section:nth-of-type(2) li:nth-of-type(6) section{
+    position: relative;
+}
+
+section:nth-of-type(2) ul li:nth-of-type(6) section img{
+    width:10%;
+    position:absolute;
+    top:-15em;
+    right:.5em;
+}
+
+/* vanaf Ipad Ol */
+
+ol {
+    width:10%;
+    list-style: none;
+
+    margin-right: 5%;
+}
+
+ol p{
+    font-weight: bold;
+    font-size:16px;
+}
+
+ol li{
+    border: solid .1em var(--input-color);
+}
+
+
+
+/* STATES */
+section:nth-of-type(2) img:hover{
+    border-bottom: solid .1em var(--main-color);
+
+}
+
+section:nth-of-type(2) img:active{
+    border: dashed .1em var(--main-color);
+}
+
+section:nth-of-type(2) img:focus {
+    outline:none;
+    border: solid .2em var(--main-color);
+    
+}
+
+
+
+/******************************
+********Next page section********
+*******************************/
+
+section:nth-of-type(3){
+    text-align: center;
+
+    background-color: var(--next-page);
+    border: solid .1em var(--accent-color);
+   
+    padding:.5em;
+    margin-left:.5em;
+    margin-right: .5em;
+
+    font-size:14px;
+}
+
+/* Link */
+section:nth-of-type(3) a{
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 13px;
+
+    margin:.5em; 
+}
+
+/* STATES */
+section:nth-of-type(3) a:hover{
+    border-bottom: solid .1em var(--main-color);
+
+}
+
+section:nth-of-type(3) a:active{
+    border: dashed .1em var(--main-color);
+}
+
+section:nth-of-type(3) a:focus {
+    outline:none;
+    border: solid .2em var(--focus-color);
+    
+}
+
+
+/******************************
+*************FOOTER*************
+*******************************/
+
+footer {
+    background-color: var(--main-color);
+
+    font-family: 'Special Elite', cursive;
+    color: var(--secondary-color);
+
+    margin-top: 15%; 
+}
+
+footer ul {
+    margin:5%;
+    margin-left:0%;
+    padding:0;
+   
+    list-style: none;  
+}
+
+footer ul li {
+    margin:3%;
+   
+    font-size:14px;
+}
+
+footer img {
+    margin:5%;
+    width:45%;
+    justify-self: center;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    margin:0%;
+    margin-left:3%;
+    margin-top:10%;
+}
+
+footer h4:last-of-type{
+    margin-bottom:5%;
+}
+
+/* text input */
+input {
+    margin-bottom:5%;
+    margin-left: 1%;
+    margin-right:1%;
+    width:75%;
+    height: 2em;
+}
+
+footer button {
+    padding:.5em;
+    margin:0;
+    width:20%;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:bold;
+
+    color:var(--secondary-color);
+    background-color:var(--input-color);
+    border:none;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer p{
+    margin-left:4%;
+    margin-bottom: 0;
+    padding-bottom:3%;
+    
+    background-color: var(--main-color);
+
+    font-size:14px;
+}
+
+footer p:last-of-type{
+    margin-left:42%;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* STATES */
+footer button:hover{
+    border-bottom: solid .3em var(--secondary-color);
+
+}
+
+footer button:active{
+    border: dashed .1em var(--main-color);
+}
+
+footer button:focus {
+    outline:none;
+    border: solid .2em var(--focus-color);
+    
+}
+
+
+
+
+
+/***********************
+******MEDIA QUERYS******
+***********************/
+@media (min-width:377px) {
+   
+    nav button {
+        top:-8.5em;
+        left:.5em;
+    }
+}
+
+
+/* Menu styling voor ipad formaat */
+@media (max-width: 767px) {
+    nav ul:nth-of-type(2){
+        display:none;
+    }
+    
+    /* Komt tervoorschijn bij ipad */
+    ol {
+        display:none;
+    }
+ } 
+
+
+ @media (min-width:768px) {
+
+     /***** HEADER*****/
+    /*****************/
+
+    /* nav styles */
+    header nav button img:nth-of-type(1) {
+        display:none;
+    }
+
+    /* Zoek icoon */ 
+    header img:nth-of-type(4){
+        width:.9em;
+        top:3.5em;
+        left:86%;
+    }
+
+    /* hartje */
+    header img:nth-of-type(3) {
+     width:1.1em;
+     position:absolute;
+     top:3.5em;
+     right:3.5em;
+   }
+
+   /* Winkelwagen */
+   header img:nth-of-type(2) {
+     width:1.4em;
+     position:absolute;
+     top:3em;
+     right:1.2em;
+   }
+
+   /* logo */
+   header img:nth-of-type(1) {
+     width:9em;
+
+     position: absolute;
+     top:2em;
+     left:1.5em;
+   }
+
+   header p {
+     background-color: var(--main-color);
+     text-transform: lowercase;
+
+    /*MARGIN AND PADDING VAN TEKST */
+     padding-bottom: 0.2em;
+     padding-top:1em;
+     margin-left: 1em;
+     margin-right: 1em;
+     margin-bottom: 2em;
+     margin-top:0;
+   }
+
+
+ /* Menu bij ipad of > */
+   nav ul:nth-of-type(2){
+       display:flex;
+       flex-wrap: wrap;
+      justify-content: center;
+      
+       margin:0;
+       padding:2em;
+
+       list-style-type: none;
+   }
+
+   nav ul:nth-of-type(2) li a {
+     color: var(--secondary-color);
+     text-decoration: none;
+
+     margin:.5em;
+   }
+
+
+    /***** iTEMS SECTION*****/
+    /***********************/
+   section:nth-of-type(2) li{
+       margin:3%;
+   }
+
+
+
+    /*****FOOTER******/
+    /*****************/
+    footer img{
+        width:30%;
+    }
+    
+    footer ul{
+        margin:3%;
+    }
+   
+    footer h4:first-of-type{
+        margin-top:5%;
+    }
+}
+
+@media (min-width:1024px) {
+    header img:nth-of-type(4){
+        width:.9em;
+        top:3.5em;
+        left:89%;
+    }
+}
+
+@media (min-width:1200px) {
+    /* Zoek icoon */ 
+    header img:nth-of-type(4){
+     width:.9em;
+     top:3.5em;
+     left:91%;
+   }
+
+   /* Home / all */
+  section:first-of-type a{
+     font-size: 20px;
+    
+    }
+}
+
+@media (min-width:1500px){
+    
+    
+     /***** HEADER*****/
+    /*****************/
+    /* Zoek icoon */ 
+    header img:nth-of-type(4){
+        width:.9em;
+        top:3.5em;
+        left:94%;
+      }
+
+    nav{
+        font-size: 17px;
+    }
+
+
+    /*****ITEMS SECTION*****/
+    /********************/
+    section:nth-of-type(2) ul li a img:first-of-type{
+        width:14em;
+        margin:0%;
+        padding:0;
+        padding-bottom:.5em;
+    }
+
+    /*******FOOTER*******/
+    /********************/
+    footer p {
+        font-size:26px;
+    }
+
+    footer ul li{
+        font-size: 20px;;
+    }
+}
+
+@media (min-width:2000px){
+
+     /*****ITEMS SECTION*****/
+    /********************/
+    section:nth-of-type(2) ul li a img:first-of-type{
+        width:18em;
+        margin:0%;
+        padding:0;
+        padding-bottom:.5em;
+    }
+
+    section:nth-of-type(2) ul p{
+        font-size:22px;
+    }
+
+    /* Hartje styles */
+
+   section:nth-of-type(2) ul li:nth-of-type(4) section img{
+     top:-21em; 
+   } 
+
+  section:nth-of-type(2) ul li:nth-of-type(5) section img{
+      top:-21em; 
+   }
+
+  section:nth-of-type(2) ul li:nth-of-type(6) section img{
+     top:-21em; 
+   }
+    
+     /*****NEXT PAGE SECTION*****/
+    /****************************/
+    section:nth-of-type(3){
+        font-size:26px;
+    }
+
+    section:nth-of-type(3) a{
+        font-size:24px;
+    }
+
+    
+}
