@@ -117,7 +117,7 @@ nav .icon{
 
 #demonia{
     margin-top:5em;
-    text-align: center;
+    
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -125,7 +125,7 @@ nav .icon{
 #demonia article{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
 #demonia p{
@@ -143,6 +143,22 @@ nav .icon{
     
 }
 
+
+/**********BLOCKS *************/
+/******************************/
+
+#block{
+   display: inline-block;
+   text-align: left;
+    padding: 5px;
+    margin-bottom: 3em;
+    background-color: var(--yellow);
+}
+
+#block p{
+    font-weight: 400;
+   
+}
 
 
 
