@@ -56,6 +56,10 @@ h1{
     font-size: 4em;
 }
 
+h2{
+    font-size: 3em;
+}
+
 p, a{
     
     font-family: "Poppins", sans-serif;
@@ -116,7 +120,7 @@ nav .icon{
 
 #matching{
     margin-top:5em;
-    text-align: center;
+    
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -124,7 +128,7 @@ nav .icon{
 #matching article{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
 #matching p{
@@ -134,7 +138,7 @@ nav .icon{
 
 #matching figure{
     width: 35%;
-    box-shadow: 1px 1px 5px black;
+   
 }
 
 #matching img{
@@ -144,6 +148,21 @@ nav .icon{
 #matching h1{
 
     margin-bottom:1em;
+}
+
+#matching a{
+    display:block;
+    color: var(--nav-text);
+    background-color: var(--yellow);
+    text-decoration: none;
+    font-weight:600;
+
+    padding: 10px;
+    margin-top: 2em;
+    width: 12em;
+  
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px var(--nav-text);
 }
 
 
