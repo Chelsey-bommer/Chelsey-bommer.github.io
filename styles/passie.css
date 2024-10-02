@@ -121,7 +121,6 @@ nav .icon{
 
 #passie{
     margin-top:5em;
-    text-align: center;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -129,12 +128,12 @@ nav .icon{
 #passie article{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
 #passie p{
     width:40%;
-    text-align: left;
+
 }
 
 #passie img{
@@ -147,11 +146,21 @@ nav .icon{
     
 }
 
+#passie a{
+    display:block;
+    color: var(--nav-text);
+    background-color: var(--yellow);
+    text-decoration: none;
+    font-weight:600;
 
-#passie h1{
-
-    margin-bottom:1em;
+    padding: 10px;
+    margin-top: 2em;
+    width: 16em;
+  
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px var(--nav-text);
 }
+
 
 
 #passie a:visited{
@@ -161,6 +170,27 @@ nav .icon{
 #passie a:hover{
     color: var(--yellow);
 }
+
+
+
+/**********BLOCKS *************/
+/******************************/
+
+#block{
+    display: inline-block;
+    text-align: left;
+     padding: 5px;
+     margin-bottom: 3em;
+     background-color: var(--yellow);
+ }
+ 
+ #block p{
+     font-weight: 400;
+     width: 100%;
+    
+ }
+
+
 
 
 /***** MEDIA QUERIES *****/
