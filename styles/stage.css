@@ -163,6 +163,44 @@ nav .icon{
  }
 
 
+ /************* ONDERZOEK STYLES **********/
+/*******************************/
+
+#onderzoek{
+    margin-top:5em;
+    
+
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+h2{
+    font-size: 3em;
+}
+
+#onderzoek article{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#onderzoek p{
+    width:50%;
+    text-align: left;
+}
+
+#onderzoek img{
+    width: 100%;
+
+}
+
+#onderzoek figure{
+    width: 40%;
+    
+}
+
+
 
 
 
@@ -208,6 +246,16 @@ Show the link that contains should open and close the topnav (.icon) */
       display: block;
       text-align: left;
     }
+
+
+    figure, a{
+        display:none;
+    }
+
+    #stage p, #onderzoek p{
+        width: 85%;
+    }
+    
 
 
   }

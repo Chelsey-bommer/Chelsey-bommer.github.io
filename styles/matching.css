@@ -221,7 +221,7 @@ nav .icon{
 
 #uitleg figure{
     width: 50%;
-    box-shadow: 1px 1px 5px black;
+    
 }
 
 #uitleg img{
@@ -279,6 +279,14 @@ Show the link that contains should open and close the topnav (.icon) */
       float: none;
       display: block;
       text-align: left;
+    }
+
+    #matching figure{
+        display:none;
+    }
+
+    #matching p{
+        width: 80%;
     }
 
 
