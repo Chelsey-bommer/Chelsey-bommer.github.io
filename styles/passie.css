@@ -236,6 +236,17 @@ Show the link that contains should open and close the topnav (.icon) */
       text-align: left;
     }
 
+    #passie figure{
+        display:none;
+    }
+
+    #passie p{
+        width: 85%;
+    }
+
+    #block p{
+        width: 100%;}
+
 
   }
 
