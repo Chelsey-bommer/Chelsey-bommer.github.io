@@ -55,7 +55,9 @@ h1, h2, h3{
 h1{
     font-size: 4em;
 }
-
+h2{
+    font-size: 3em;
+}
 p, a{
     
     font-family: "Poppins", sans-serif;
@@ -117,7 +119,7 @@ nav .icon{
 
 #platformer{
     margin-top:5em;
-    text-align: center;
+    
     margin-left: 10%;
     margin-right: 10%;
     
@@ -126,7 +128,7 @@ nav .icon{
 #platformer article{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
 
     margin-bottom: 9em;
 }
@@ -147,9 +149,19 @@ nav .icon{
 }
 
 
-#platformer h1{
-    
-    margin-bottom:1em;
+#platformer a{
+    display:block;
+    color: var(--nav-text);
+    background-color: var(--yellow);
+    text-decoration: none;
+    font-weight:600;
+
+    padding: 10px;
+    margin-top: 2em;
+    width: 12em;
+  
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px var(--nav-text);
 }
 
 
@@ -161,6 +173,30 @@ nav .icon{
     color: var(--yellow);
 }
 
+
+
+/**********BLOCKS *************/
+/******************************/
+
+#block{
+    display: inline-block;
+    text-align: left;
+     padding: 5px;
+     margin-bottom: 3em;
+     background-color: var(--yellow);
+ }
+ 
+ #block p{
+     font-weight: 400;
+     width: 100%;
+    
+ }
+
+
+
+ #mijndeel p{
+    width: 80%;
+ }
 
 
 /***** MEDIA QUERIES *****/
@@ -205,6 +241,21 @@ Show the link that contains should open and close the topnav (.icon) */
       display: block;
       text-align: left;
     }
+
+
+    figure{
+        display:none;
+    }
+
+    #platformer p{
+        width: 85%;
+    }
+    #block p{
+        font-weight: 400;
+        width: 100%;
+       
+    }
+   
 
 
   }
