@@ -121,11 +121,32 @@ nav .icon{
     margin-left: 10%;
     margin-right: 10%;
     margin-top:5em;
-    text-align: center;
+    
 }
 
 h1{
     font-size: 4em;
+}
+
+#langestage article{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#langestage p{
+    width:50%;
+    text-align: left;
+}
+
+#langestage img{
+    width: 100%;
+
+}
+
+#langestage figure{
+    width: 35%;
+    
 }
 
 

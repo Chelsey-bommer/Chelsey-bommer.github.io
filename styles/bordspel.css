@@ -122,7 +122,6 @@ nav .icon{
 
 #bordspel{
     margin-top:5em;
-    text-align: center;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -130,7 +129,7 @@ nav .icon{
 #bordspel article{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
 #bordspel p{
@@ -139,7 +138,7 @@ nav .icon{
 }
 
 #bordspel figure{
-    width: 35%;
+    width: 40%;
 
 }
 
@@ -161,30 +160,65 @@ nav .icon{
 
 #regels{
     margin-top:5em;
-    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #regels article{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-around
 }
 
 #regels p{
-    width:25%;
-}
-
-#regels h2{
+    width:75%;
     margin-bottom: 1em;
 }
 
+
+
 #regels figure{
-    width: 30%;
+    width: 40%;
 
 }
 
 #regels img{
     width: 100%;
+}
+
+
+
+
+
+/******** STYLES DESIGN ********/
+/*******************************/
+
+
+#uitleg{
+    margin-top:5em;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#uitleg article{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#uitleg figure{
+    width: 35%;
+
+}
+
+#uitleg img{
+    width: 100%;
+}
+
+#uitleg p{
+    width:45%;
 }
 
 

@@ -116,7 +116,7 @@ nav .icon{
 
 #stage{
     margin-top:5em;
-    text-align: center;
+
     margin-left: 10%;
     margin-right: 10%;
     
@@ -125,11 +125,11 @@ nav .icon{
 #stage article{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
 #stage p{
-    width:40%;
+    width:45%;
     text-align: left;
 }
 
@@ -144,11 +144,23 @@ nav .icon{
 }
 
 
-#stage h1{
-   
-    margin-bottom:1em;
-}
 
+
+/**********BLOCKS *************/
+/******************************/
+
+#block{
+    display: inline-block;
+    text-align: left;
+     padding: 5px;
+     margin-bottom: 3em;
+     background-color: var(--yellow);
+ }
+ 
+ #block p{
+     font-weight: 400;
+    
+ }
 
 
 
