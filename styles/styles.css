@@ -240,9 +240,6 @@ section#portfolio section:first-of-type{
     box-shadow: 1px 1px 5px black;
 }
 
-#portfolio figure:first-of-type img{
-    object-fit:scale-down;
-}
 
 #portfolio h3{
     font-size: 1.5em;
