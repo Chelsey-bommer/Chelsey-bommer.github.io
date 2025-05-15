@@ -169,7 +169,8 @@ nav .icon{
 }
 
 #matching a:hover{
-    color: var(--yellow);
+    color: var(--deco-color);
+    
 }
 
 

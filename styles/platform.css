@@ -158,7 +158,7 @@ nav .icon{
 
     padding: 10px;
     margin-top: 2em;
-    width: 12em;
+    width: 10em;
   
     border-radius: 10px;
     box-shadow: 2px 2px 1px var(--nav-text);
@@ -170,7 +170,7 @@ nav .icon{
 }
 
 #platformer a:hover{
-    color: var(--yellow);
+    color: var(--deco-color);
 }
 
 
