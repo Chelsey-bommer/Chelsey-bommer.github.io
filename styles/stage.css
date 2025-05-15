@@ -90,6 +90,11 @@ header{
     
 }
 
+header a{
+    text-decoration: none;
+    color: var(--background-color);
+}
+
 header h3{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -139,8 +144,18 @@ nav .icon{
 }
 
 #stage figure{
-    width: 35%;
+    width: 30%;
     
+}
+
+#stage figcaption a{
+    color: var(--nav-text);
+    text-decoration: none;
+    font-weight:600;
+
+    margin-top: 1em;
+    width: 13em;
+  
 }
 
 

@@ -150,6 +150,15 @@ nav .icon{
 }
 
 
+/***** STATES ******/
+
+#home a:hover{
+    color: var(--deco-color);
+}
+
+
+
+
 
 
 
@@ -195,13 +204,18 @@ h2{
     font-weight:600;
 
     padding: 10px;
-    margin-top: 2em;
     width: 11em;
   
     border-radius: 10px;
     box-shadow: 2px 2px 1px var(--nav-text);
 }
 
+
+/***** STATES ******/
+
+#about a:hover{
+    color: var(--deco-color);
+}
 
 
 
@@ -276,7 +290,7 @@ section#portfolio section:first-of-type{
 section#portfolio section:first-of-type figure img:hover{   /* don't know if im a fan of this*/
     opacity: 0.4;
     transition: ease;
-    transition-duration: .4s;
+    transition-duration: .3s;
 }
 
 #portfolio a:visited{
