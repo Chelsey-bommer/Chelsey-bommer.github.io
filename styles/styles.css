@@ -187,9 +187,18 @@ h2{
 }
 
 #about img{
-    width:20%;
+    width:100%;
+    border-radius: 10px;
+    
+    
+    
+}
+
+#about figure{
+    width:40%;
     border-radius: 10px;
     margin-left: 10em;
+    
 }
 
 #about #mobileimg{
@@ -394,11 +403,16 @@ Show the link that contains should open and close the topnav (.icon) */
     }
 
     #about #mobileimg{
+        display:block;
+        width: 100%;
+    }
+
+    #about figure{
         display: block;
         width:50%;
         border-radius: 10px;
         margin-left: 0;
-        margin-top: 1em;
+        margin-top: 2em;
     }
 
     #home{
@@ -424,4 +438,26 @@ Show the link that contains should open and close the topnav (.icon) */
     
         
     }
+
   }
+
+  @media screen and (min-width: 600px) and (max-width: 1200px){
+
+    #about img{
+        display: none;
+    }
+
+    #about #mobileimg{
+        display:block;
+        width: 100%;
+    }
+       
+        #about figure{
+           
+            width:40%;
+            margin-left: 0;
+            margin-top: 2em;
+           
+         
+     }
+    }
